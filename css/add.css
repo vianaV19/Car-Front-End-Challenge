@@ -1,0 +1,40 @@
+
+.add-container {
+  width: 60%;
+  height: auto;
+  background-color: rgba(233, 233, 233, 0.597);
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.322);
+  margin-bottom: 50px;
+}
+
+
+form input {
+  width: 90%;
+  border: none;
+  border-radius: 35px;
+  padding: 5px 20px;
+  appearance: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.btn-save {
+  background-color: #6beaca;
+  border-radius: 35px;
+  border: none;
+  color: black;
+  padding: 10px 25px;
+}
