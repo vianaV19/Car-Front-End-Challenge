@@ -1,4 +1,4 @@
-# Front-End-Corelab-Challenge
-Front-End do processo seletivo de deenvolvedor JS da empresa Corelab.
+# Car-Front-End-Challenge
+Front-End aplciativo com sistema CRUD para Banco de dados de carros.
 
 em produção.
