@@ -38,43 +38,46 @@ input {
   display: none;
 }
 
+.adverts {
+  background-color: rgb(246, 246, 246);
+}
 
-#adverts .container {
+.adverts .container {
   display: flex;
   gap: 70px;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgb(246, 246, 246);
+
 }
 
-#adverts .advert {
+.adverts .advert {
   padding: 5px;
   height: 250px;
   width: 250px;
   background-color: rgb(229, 69, 69);
 }
 
-#adverts .advert div {
+.adverts .advert div {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   gap: 10px;
 }
 
-#adverts button {
+.adverts button {
   background-color: transparent;
   border: none;
 }
 
-#adverts .fav-btn {
+.adverts .fav-btn {
   width: 30px;
 }
 
-#adverts .close-btn {
+.adverts .close-btn {
   width: 25px;
 }
 
-#adverts .advert ul  {
+.adverts .advert ul  {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -82,7 +85,7 @@ input {
 
 }
 
-#adverts .advert ul  li {
+.adverts .advert ul  li {
   font-size: 0.8rem;
 }
 
