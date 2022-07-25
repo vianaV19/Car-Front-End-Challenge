@@ -17,6 +17,7 @@ input {
   background-color: rgb(246, 246, 246);
   padding-top: 50px;
   width: 75%;
+  height: 100vh;
   margin: auto;
 }
 
@@ -37,17 +38,52 @@ input {
   display: none;
 }
 
+
 #adverts .container {
   display: flex;
-  justify-content: space-around;
+  gap: 70px;
   flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(246, 246, 246);
 }
 
 #adverts .advert {
-  flex-basis: 0;
-  flex-grow: 1;
-  height: 200px;
-  background-color: rgb(255, 77, 77);
+  padding: 5px;
+  height: 250px;
+  width: 250px;
+  background-color: rgb(229, 69, 69);
+}
+
+#adverts .advert div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+#adverts button {
+  background-color: transparent;
+  border: none;
+}
+
+#adverts .fav-btn {
+  width: 30px;
+}
+
+#adverts .close-btn {
+  width: 25px;
+}
+
+#adverts .advert ul  {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: white;
+
+}
+
+#adverts .advert ul  li {
+  font-size: 0.8rem;
 }
 
 @media (max-width: 576px) {

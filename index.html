@@ -17,10 +17,12 @@
   <!-- INDEX STYLE -->
   <link rel="stylesheet" href="css/index.css" />
 
+  <script defer src="js/index.js"></script>
+
 </head>
 
 <body>
-  <div id="main-container" >
+  <div id="main-container">
     <div class="container">
       <div class="row d-flex justify-content-center">
         <div class="offset-2 col-11">
@@ -30,40 +32,86 @@
           </a>
         </div>
       </div>
-  
+
       <div class="row">
         <div class="col-12 d-flex justify-content-center">
           <button onclick="window.location.href = 'add.html'" class=" btn btn-secondary btn-add mt-4">
             <p>
-              <span class="plus-icon"><img src="imgs/plus-icon.png" alt="" /></span>ADICIONAR
+              <li class="plus-icon"><img src="imgs/plus-icon.png" alt="" /></li>ADICIONAR
             </p>
           </button>
         </div>
       </div>
     </div>
-    
-    <div id="adverts" class="mt-5">
+
+    <div id="adverts" class="mt-5 d-none">
       <p class="lead text-center">Meus Anuncios</p>
       <div class="container">
-        
         <div class="advert">
-  
+          <div>
+            <button class="close-btn">
+              <img class="img-fluid" src="imgs/close-icon.png" alt="">
+            </button>
+            <button class="fav-btn">
+              <img class="img-fluid" src="imgs/fav-icon.png" alt="">
+            </button>
+          </div>
+          <div class="content d-flex justify-content-start">
+            <p>
+            <ul>
+              <li> Chevrolet</li>
+              <li> Cor: Vermelho</li>
+              <li> Preço: 2200</li>
+              <li> Cor: Vermelho</li>
+              <li> Descricao: Unico dono, usado 6 anos </li>
+            </ul>
+            </p>
+          </div>
         </div>
+
+
         <div class="advert">
-  
+          <div>
+            <button class="close-btn">
+              <img class="img-fluid" src="imgs/close-icon.png" alt="">
+            </button>
+            <button class="fav-btn">
+              <img class="img-fluid" src="imgs/fav-icon.png" alt="">
+            </button>
+          </div>
+
         </div>
+
         <div class="advert">
-  
+          <div>
+            <button class="close-btn">
+              <img class="img-fluid" src="imgs/close-icon.png" alt="">
+            </button>
+            <button class="fav-btn">
+              <img class="img-fluid" src="imgs/fav-icon.png" alt="">
+            </button>
+          </div>
+
         </div>
+
         <div class="advert">
-  
+          <div>
+            <button class="close-btn">
+              <img class="img-fluid" src="imgs/close-icon.png" alt="">
+            </button>
+            <button class="fav-btn">
+              <img class="img-fluid" src="imgs/fav-icon.png" alt="">
+            </button>
+          </div>
+
         </div>
-        
+
       </div>
     </div>
+
   </div>
 
- 
+
 </body>
 
 </html>
