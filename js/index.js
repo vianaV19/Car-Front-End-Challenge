@@ -1,4 +1,6 @@
 if(sessionStorage.getItem('show')){
-    document.getElementsByClassName('adverts')[0].classList.remove('d-none');
+    document.getElementById('myAdverts').classList.remove('d-none');
+}else {
+    document.getElementById('myAdverts').classList.add('d-none');
 }
 
